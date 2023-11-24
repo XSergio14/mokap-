@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/style.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><img src="../img/Logo.png" width="81" height="65" alt="Logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="inicio" href="#" >Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="categorias" href="#">Categorías</a>
+            </li>
+            <li class="nav-item">
+              <a class="locales" href="#">Locales</a>
+            </li>
+            <li class="nav-item">
+              
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0 ml-auto ">
+            <input class="form-control mr-sm-5" type="search" placeholder="Buscar" aria-label="Buscar">           
+            <img src="../img/avatar.png" class="perfil" alt="">
+          </form>
+        </div>     
+    </nav>
+    
+    <div class="container mt-4">
+        <form class="formulario">
+            <div class="row justify-content-md-center">
+                <div class="col-md-6">
+                    <fieldset>
+                         <h2>registrarte</h2>
+                        
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombres</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Nombres">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="apellidos" class="form-label">Apellidos</label>
+                            <input type="text" class="form-control" id="apellidos" placeholder="Apellidos">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="direccion" class="form-label">Dirección</label>
+                            <input type="text" class="form-control" id="direccion" placeholder="Dirección">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="telefono" class="form-label">Teléfono</label>
+                            <input type="text" class="form-control" id="telefono" placeholder="Teléfono">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="correo" class="form-label">Correo</label>
+                            <input type="text" class="form-control" id="correo" placeholder="Correo">
+                        </div>
+                    </fieldset>
+                </div>
+
+                <div class="col-md-6">
+                    <fieldset>
+                        <br>
+                        <br>
+                        <div class="mb-3">
+                            <label for="tipoDocumento" class="form-label">Tipo de Documento</label>
+                            <select class="form-select" id="tipoDocumento">
+                                <option value="" disabled selected>Seleccione...</option>
+                                <option value="dni">Cédula</option>
+                                <option value="pasaporte">Pasaporte</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="documento" class="form-label">Número de Documento</label>
+                            <input type="text" class="form-control" id="documento" placeholder="Número de Documento">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="fechaNacimiento" class="form-label">Fecha de Nacimiento</label>
+                            <input type="date" class="form-control" id="fechaNacimiento">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="contrasena" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="contrasena" placeholder="Contraseña">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="confirmarContrasena" class="form-label">Confirmar Contraseña</label>
+                            <input type="password" class="form-control" id="confirmarContrasena" placeholder="Confirmar Contraseña">
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+            <div class="mb-3 form-check center">
+                <input type="checkbox" class="form-check-input" id="privacidad">
+                <label class="form-check-label" for="privacidad">Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</label>
+            </div>
+
+            <div class="mb-3 text-center">
+                <button type="submit" class="btn btn-primary">Registrarse</button>
+                <p>¿Ya tienes una cuenta? <a href="iniciosesion.html" class="link">Iniciar Sesión</a></p>
+            </div>
+        </form>
+    </div>
+    
+    </footer>
+
+    <footer class="text-center mt-5">
+        <div class="contenedor-footer">
+            <div class="imagen-logo">
+                <img src="../img/Logo.png" alt="">
+            </div>
+            <div class="content-foo">
+                <h4>Nosotros</h4>
+                <p>Sobre nosotros</p>
+                <p>Contáctanos</p>
+            </div>
+            <div class="content-foo">
+                <h4>Locales</h4>
+                <p>Maritza Shoes</p>
+                <p>Todo a Mil</p>
+            </div>
+            <div class="content-foo">
+                <h4>Únete y crea tu Local</h4>
+                <p>Iniciar Sesión</p>
+                <p>Registrarte</p>
+            </div>
+            <div class="content-foo img">
+                <h4>Redes sociales</h4>
+                <p><img src="../img/FB.png" class="facebook" alt=""></p>
+                <p><img src="../img/IG.png" class="instragram" alt=""></p>
+            </div>
+           
+        </div>
+    </footer>
+</body>
+
+</html>
+
