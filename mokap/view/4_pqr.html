@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pqr</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body style="background-image: url(../img/pqr.jpg);">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><img src="../img/Logo.png" width="81" height="65" alt="Logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="inicio" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="categorias" href="#">Categorías</a>
+                </li>
+                <li class="nav-item">
+                    <a class="locales" href="#">Locales</a>
+                </li>
+                <li class="nav-item">
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0 ml-auto ">
+                <input class="form-control mr-sm-5" type="search" placeholder="Buscar" aria-label="Buscar">
+                <img src="../img/avatar.png" class="perfil" alt="">
+            </form>
+        </div>
+    </nav>
+
+    <section id="formulario" class="bg-white">
+        <h2>Formulario de PQRS</h2>
+        <form method="post">
+            <label for="tipo">Tipo de solicitud:</label>
+            <select name="tipo" id="tipo">
+                <option value="pregunta">Pregunta</option>
+                <option value="queja">Queja</option>
+                <option value="reclamo">Reclamo</option>
+                <option value="sugerencia">Sugerencia</option>
+            </select>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="tipoTienda">Seleccionar Tienda</label>
+            <select name="tipoTienda" id="tipoTienda">
+                <option value="TiendaRamdon1">TiendaRamdoom1</option>
+                <option value="TiendaRamdom2">TiendaRamdoom2</option>
+                <option value="TiendaRamdoom3">TiendaRamdoom3</option>
+                <option value="TiendaRamdoom4">TiendaRamdoom4</option>
+            </select>
+
+            <label for="mensaje">Descripcion:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <div class="mb-3 text-center">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>
