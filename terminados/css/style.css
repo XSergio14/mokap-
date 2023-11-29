@@ -132,4 +132,10 @@ textarea {
         box-shadow 0.15s ease-in-out;
 }
 
+/* feOffset00 */
+
+footer {
+    height: 50%;
+    min-height: 200px; /* Ajusta el valor según tus necesidades */
+}
 

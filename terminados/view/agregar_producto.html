@@ -57,11 +57,12 @@
                 </div>
                 <h2>Tienda Randon</h2>
                 <p>Vendedor</p>
-                <a href="" class="btn-custom">Actualizar</a>
-                <a href="./seguridad.html" class="btn-custom">Seguridad</a>
-                <a href="inventario_vendedor.html" class="btn-custom" >inventario</a>
+                <a href="" class="btn btn-custom">Actualizar</a>
+                <a href="./seguridad.html" class="btn btn-custom">Seguridad</a>
+                <a href="inventario_vendedor.html" class="btn btn-custom">inventario</a>
             </div>
-            <div style="height: 600px;" class="col-lg-8 col-sm-12 m-3 p-3 border shadow">
+
+            <div class="col-lg-8 col-sm-12 m-3 p-3 border shadow">
                 <h1 class="text-center">agregar</h1>
                 <br>
                 <div class="row">
@@ -87,10 +88,14 @@
 
                         <label class="form-label m-2 r-2 font-weight-bold Negrita">precio</label>
                         <input type="number" class="entrada m-1 shadow" id="precio" placeholder="precio">
+
+                        <form action="/tu_ruta_de_procesamiento" method="post" enctype="multipart/form-data">
+                            <input type="file" name="archivo" class="from__file" accept=".png" required>
+                            <input type="submit" class="from__submit">
+                        </form>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 
@@ -148,7 +153,8 @@
                         <h5 class="text-uppercase mb-4">Unete y crea tu local</h5>
                         <ul class="list-unstyled">
                             <li class="mb-2">
-                                <a href="iniciar_sesion.html" class="text-white"><i class="fas fa-paw pe-3"></i>Inicio sesion</a>
+                                <a href="iniciar_sesion.html" class="text-white"><i class="fas fa-paw pe-3"></i>Inicio
+                                    sesion</a>
                             </li>
                             <li class="mb-2">
                                 <a href="registro.html" class="text-white"><i class="fas fa-paw pe-3"></i>Registrate</a>
@@ -157,10 +163,11 @@
                     </div>
                     <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
                         <h5 class="text-uppercase mb-4 ">Redes sosiales</h5>
-                        <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac"  href="https://www.instagram.com/"
-                            role="button"><i class="bi bi-instagram"></i></a>
-                        <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="https://www.facebook.com/?locale=es_LA"
-                            role="button"><i class="bi bi-facebook"></i></a>
+                        <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac"
+                            href="https://www.instagram.com/" role="button"><i class="bi bi-instagram"></i></a>
+                        <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998"
+                            href="https://www.facebook.com/?locale=es_LA" role="button"><i
+                                class="bi bi-facebook"></i></a>
                     </div>
                 </div>
             </div>
