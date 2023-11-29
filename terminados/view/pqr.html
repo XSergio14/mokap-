@@ -40,7 +40,7 @@
                 <img src="../img/avatar.png" class="perfil" alt="">
             </form>
         </div>
-    </nav>    
+    </nav>
 
     <section id="formulario" class="bg-white">
         <h2>Formulario de PQRS</h2>
@@ -67,13 +67,27 @@
                 <option value="TiendaRamdoom4">TiendaRamdoom4</option>
             </select>
 
+            <!-- ... (resto del código) ... -->
+
             <label for="mensaje" class="font-weight-bold Negrita">Descripcion:</label>
             <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
 
-            <div class="mb-3 text-center" >
+            <!-- Agregar el siguiente código para el botón de agregar imagen -->
+            <div class="form-group">
+                <label for="imagen" class="font-weight-bold Negrita">Adjuntar Imagen:</label>
+                <input type="file" class="form-control-file" id="imagen" name="imagen">
+            </div>
+            <div class="mb-3 text-center">
                 <button type="submit">Enviar</button>
             </div>
         </form>
+    </section>
+
+    <!-- ... (resto del código) ... -->
+
+
+   
+    </form>
     </section>
     <br>
     <div class="container-lg my-6">
@@ -129,7 +143,8 @@
                         <h5 class="text-uppercase mb-4">Unete y crea tu local</h5>
                         <ul class="list-unstyled">
                             <li class="mb-2">
-                                <a href="iniciar_sesion.html" class="text-white"><i class="fas fa-paw pe-3"></i>Inicio sesion</a>
+                                <a href="iniciar_sesion.html" class="text-white"><i class="fas fa-paw pe-3"></i>Inicio
+                                    sesion</a>
                             </li>
                             <li class="mb-2">
                                 <a href="registro.html" class="text-white"><i class="fas fa-paw pe-3"></i>Registrate</a>
@@ -138,10 +153,11 @@
                     </div>
                     <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
                         <h5 class="text-uppercase mb-4 ">Redes sosiales</h5>
-                        <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac"  href="https://www.instagram.com/"
-                            role="button"><i class="bi bi-instagram"></i></a>
-                        <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="https://www.facebook.com/?locale=es_LA"
-                            role="button"><i class="bi bi-facebook"></i></a>
+                        <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac"
+                            href="https://www.instagram.com/" role="button"><i class="bi bi-instagram"></i></a>
+                        <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998"
+                            href="https://www.facebook.com/?locale=es_LA" role="button"><i
+                                class="bi bi-facebook"></i></a>
                     </div>
                 </div>
             </div>
