@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil tienda </title>
+    <title>Inventario</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -15,7 +16,7 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="home.html">
             <img src="../img/Logo.png" width="81" height="65" alt="Logo">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -25,38 +26,34 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Categorías</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Locales</a>
-                </li>
+                    <a class="nav-link" href="home.html">Inicio</a>
             </ul>
             <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-5" type="search" placeholder="Buscar" aria-label="Buscar">
-                <i class="bi bi-cart4"></i>
                 <img src="../img/avatar.png" class="perfil" alt="">
             </form>
         </div>
     </nav>
 
+    <div class="circulo-nav">
+        <a href="">
+            <img src="./tienda.png" alt="">
+        </a>
+    </div>
 
-    <div class="container-lg mt-3">
-        <div class="row">
-            <div class="col-lg-3 col-sm-12 shadow p-3 m-3">
-                <div class="Logo1" style="width: 100%; height: auto; display: block;">
-                    <img src="../img/7431863.jpg" alt="Imagen de perfil del vendedor" class="img-fluid rounded-circle">
+    </nav>
+    <div style="height: 90%;" class="container">
+        <div class="row ">
+            <div class="col-lg-3 col-sm-12 shadow p-3 m-3 text-center">
+                <div class="circulo">
+                    <img src="../img/7431863.jpg" alt="imagen">
                 </div>
-                <h2 class="text-center">Tienda Randon</h2>
-                <p class="text-center">Vendedor</p>
-                <a href="pendiente.html" class="btn btn-primary btn-block">Pedidos</a>
-                <a href="./seguridad.html" class="btn btn-primary btn-block">Actualizar</a>
-                <a href="#" class="btn btn-primary btn-block">Mejorar</a>
-                <br>
-                <a href="#" class="btn btn-primary  btn-block ">Ayuda</a>
+                <h2>Tienda Randon</h2>
+                <p>Vendedor</p>
+                <a href="" class="btn btn-custom">Actualizar</a>
+                <a href="./seguridad.html" class="btn btn-custom">Seguridad</a>
+                <a href="inventario_vendedor.html" class="btn btn-custom">inventario</a>
             </div>
+            
             <div class="col-lg-8 col-md-9 m-3 p-3 border shadow">
                 <h2>Inventario</h2>
                 <div class="text-lg-right">
@@ -123,7 +120,7 @@
         <footer class="bg-dark text-center text-lg-start text-white">
             <div class="container p-4">
                 <div class="row my-6">
-                    <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
                         <div class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto"
                             style="width: 150px; height: 150px;">
                             <img src="../img/Logo.png" height="70" alt="" loading="lazy" />
@@ -146,18 +143,25 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase mb-4">Nosotros</h5>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase mb-4">servicio al cliente</h5>
                         <ul class="list-unstyled">
-                            <li class="mb-2">
-                                <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Sobre nosotros</a>
+                            <li class="mb-1">
+                                <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>preguntas frecuentes</a>
                             </li>
-                            <li class="mb-2">
-                                <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Contactenos</a>
+                            <li class="mb-1">
+                                <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>P.Q.R.S</a>
+                            </li>
+                            <li class="mb-1">
+                                <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Terminos y condiciones
+                                </a>
+                            </li>
+                            <li class="mb-1">
+                                <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Schoescom@gmail.com</a>
                             </li>
                         </ul>
                     </div>
-                    <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
                         <h5 class="text-uppercase mb-4">locales</h5>
                         <ul class="list-unstyled">
                             <li class="mb-2">
@@ -169,22 +173,10 @@
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase mb-4">Unete y crea tu local</h5>
-                        <ul class="list-unstyled">
-                            <li class="mb-2">
-                                <a href="iniciar_sesion.html" class="text-white"><i class="fas fa-paw pe-3"></i>Inicio
-                                    sesion</a>
-                            </li>
-                            <li class="mb-2">
-                                <a href="registro.html" class="text-white"><i class="fas fa-paw pe-3"></i>Registrate</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase mb-4 ">Redes sosiales</h5>
-                        <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac"
+                        <h5 class="text-uppercase mb-4 ">Redes sociales</h5>
+                        <a class="btn btn-secondary btn-floating m-1" style="background-color: #5a5656"
                             href="https://www.instagram.com/" role="button"><i class="bi bi-instagram"></i></a>
-                        <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998"
+                        <a class="btn btn-secondary btn-floating m-1" style="background-color: #5a5656"
                             href="https://www.facebook.com/?locale=es_LA" role="button"><i
                                 class="bi bi-facebook"></i></a>
                     </div>
