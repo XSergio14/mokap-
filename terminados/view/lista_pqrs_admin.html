@@ -1,0 +1,157 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Usuario</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./diseño/diseño.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+    .nav-vertical {
+      display: flex;
+      flex-direction: column;
+    }
+
+
+
+    .nav-btn {
+      color: black;
+    }
+
+    .nav-btn:hover {
+      background-color: #76629c;
+      color: aliceblue;
+    }
+
+    .nav-vertical a {
+      left: 0;
+      margin: 5%;
+      text-decoration: none;
+      height: 50px;
+      text-align: center;
+      border-top-right-radius: 30px;
+      border-bottom-right-radius: 30px;
+      vertical-align: middle;
+      width: 90%;
+      border: 1px solid transparent;
+      padding-top: 3%;
+    }
+
+    .logo {
+      height: 130px;
+      width: 130px;
+    }
+
+    .btn-salir {
+      margin-top: 20%;
+    }
+
+    .circulo-nav {
+      /*se pone en div que se vaya a poner en un nav, este crea el espacio donde iria la imagen*/
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      /* Hace que el div sea redondo */
+      overflow: hidden;
+      /* Oculta cualquier contenido que se desborde del div redondo */
+      margin-left: 1%;
+      margin-right: 1%;
+    }
+
+    .entrada {
+      /*esta clase pone los label redondos*/
+      width: 100%;
+      height: 38px;
+      -moz-border-radius: 20px;
+      -webkit-border-radius: 20px;
+      border-radius: 20px;
+      border: 1px solid #c7bfbf;
+      padding: 0 7% 0 7%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container-lg">
+   <!--aqui se pone el titulo  -->
+    <div class="row">
+      <div class="col-md-3 shadow nav-vertical">
+        <div class="mb-2 mt-2 text-center">
+          <div class="d-flex align-items-center justify-content-center mt-3">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQAeQq-3K0F_RdVBEGHRX-aHpuTO02Ykb5J7ThFSi2Hg&s"
+              alt="" class="rounded-circle img-fluid">
+          </div>
+          <h2 class="mt-2">Shoes<br>Company</h2>
+        </div>
+        <a class="nav-btn" href="">
+          <img src="../assets/tienda.png" alt="" class="img-fluid">
+          INICIO
+        </a>
+        <!-- botones que se deban agregar  -->
+        <a class="nav-btn btn-salir" href="">
+          <img src="../assets/salida-de-emergencia.png" alt="" class="img-fluid">
+          SALIR
+        </a>
+      </div>
+      <tbody>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-3">
+                    <h1>Lista de PQRS</h1>
+                    <br>
+                    <div>
+                        <button type="button" class="Pendientes" class="btn btn-options">Pendientes</button>
+                        <button type="button" class="Despachados" class="btn btn-options">Respondidos</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-lg-12 tabla">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Tipo Peticion</th>
+                                <th>F. Creacion</th>
+                                <th>Hora</th>
+                                <th>Estado</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Pregunta</td>
+                                <td>20/02/2023</td>
+                                <td>18:00</td>
+                                <td>pendiente</td>
+                                <td>
+        
+                                    <button type="button" class="Editar" class="btn btn-options">
+                                        <img class="logo" src="../img/editar.png" alt="">
+                </div></button>
+        
+                <button type="button" class="vista" class="btn btn-options">
+                    <img class="logo" src="../img/ojo.png" alt="">
+            </div>
+            
+            </button>
+            </td>
+            </tr>
+            </tbody>
+            </table>
+        </div>
+    </tbody>
+    </div>
+    
+  </div>
+
+  
+</body>
+
+
+
+</html>

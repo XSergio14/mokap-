@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agregar producto</title>
+    <title>perfil cliente</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
@@ -45,17 +45,16 @@
         <div class="row ">
             <div class="col-lg-3 col-sm-12 shadow p-3 m-3 text-center">
                 <div class="circulo">
-                    <img src="../img/7431863.jpg" alt="imagen">
+                    <img src="../img/usuario negro.png" alt="imagen">
                 </div>
-                <h2>Tienda Randon</h2>
-                <p>Vendedor</p>
-                <a href="" class="btn btn-custom p-2" >Actualizar</a>
-                <a href="./seguridad.html" class="btn btn-custom">Seguridad</a>
-                <a href="inventario_vendedor.html" class="btn btn-custom">Inventario</a>
+                <h2>Ramon salazar</h2>
+                <a href="" class="btn btn-custom p-2" >Informacion</a>
+                <a href="./seguridad.html" class="btn btn-custom">cambiar contraseña</a>
+                <a href="inventario_vendedor.html" class="btn btn-custom">cerrar sesion</a>
             </div>
 
             <div class="col-lg-8 col-sm-12 m-3 p-3 border shadow">
-                <h1 class="text-center">Agregar</h1>
+                <h1 class="text-center">Tu Informacion</h1>
                 <br>
                 <div class="row">
                     <div class="col-lg-5 col-sm-12 ">
@@ -63,26 +62,15 @@
                         <input type="text" class="entrada m-1 shadow" id="talla" max="12" min="1"
                             placeholder="Nombre tienda">
 
-                        <label class="form-label m-2 r-2 font-weight-bold Negrita">Talla</label>
+                        <label class="form-label m-2 r-2 font-weight-bold Negrita">Apellido</label>
                         <input type="number" class="entrada m-1 shadow" id="talla" placeholder="talla" value="" max="999" min="0">
-
-                        <label class="form-label m-2 r-2 font-weight-bold Negrita">Cantidad</label>
-                        <input type="number" class="entrada m-1 shadow" id="cantidad" placeholder="cantidad" value="" max="999" min="0">
-
-                        <label class="form-label m-2 r-2 font-weight-bold Negrita">Categoría</label>
-                        <input type="text" class="entrada m-1 shadow" id="categoria" placeholder="categoria">
-
-
                     </div>
                     <div class="col-lg-5 col-sm-12 ">
-                        <label class="form-label m-2 r-2 font-weight-bold Negrita">Color</label>
+                        <label class="form-label m-2 r-2 font-weight-bold Negrita">Correo</label>
                         <input type="text" class="entrada m-1 shadow" id="categoria" placeholder="color">
 
-                        <label class="form-label m-2 r-2  font-weight-bold Negrita">Ofertas</label>
+                        <label class="form-label m-2 r-2  font-weight-bold Negrita">Telefono</label>
                         <input type="number" class="entrada m-1 shadow" id="ofertas" placeholder="ofertas" value="" max="999" min="0">
-
-                        <label class="form-label m-2 r-2 font-weight-bold Negrita">Precio</label>
-                        <input type="number" class="entrada m-1 shadow" id="precio" placeholder="precio" value="" max="999" min="0">
 
                         <label class="form-label m-2 r-2 font-weight-bold Negrita">Subir imagen</label>
                         <form action="/tu_ruta_de_procesamiento" method="post" enctype="multipart/form-data">
