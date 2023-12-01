@@ -45,15 +45,8 @@ textarea {
     /* Para evitar que los bordes redondeados se vean afectados por el sombreado */
 }
 
-.Pendientes {
-    margin-right: 5px;
-    background-color: #68548C;
-    border-radius: 20px;
-    border: transparent;
-}
-
+.pendientes,
 .Despachados {
-
     background-color: #EFEBF5;
     border-radius: 20px;
     border: transparent;
@@ -67,20 +60,6 @@ textarea {
 
 .vista {
     background-color: #71D587;
-    border-radius: 20px;
-    border: transparent;
-}
-
-
-.despachados {
-    margin-right: 5px;
-    background-color: #68548C;
-    border-radius: 20px;
-    border: transparent;
-}
-
-.pendientes {
-    background-color: #EFEBF5;
     border-radius: 20px;
     border: transparent;
 }
@@ -149,3 +128,13 @@ textarea {
 /* -------------------------------------------------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------------------------------------------------- */
 /* lista pqrs */
+
+
+
+/* cambio de contraseña */
+.primary{
+    margin-right: 5px;
+    background-color: #68548C;
+    border-radius: 10px;
+    border: transparent;
+}

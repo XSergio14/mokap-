@@ -14,10 +14,10 @@
 </head>
 
 <body>
-
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="home.html">
-            <img src="../img/Logo.png" width="81" height="65" alt="Logo">
+            <img src="../img/Imagen de WhatsApp 2023-11-30 a las 21.17.15_cbcc47bc.png" width="81" height="65"
+                alt="Logo">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,14 +25,20 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mr-auto">
+
                 <li class="nav-item active">
                     <a class="nav-link" href="home.html">Inicio</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="home.html">Productos</a>
+                </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <img src="../img/avatar.png" class="perfil" alt="">
-            </form>
+            <a class="navbar-brand" href="home.html">
+        <img src="../img/user_2102633 (1).png "  alt="Logo"> Tienda random
+    </a>
         </div>
     </nav>
+
 
     <div class="circulo-nav">
         <a href="">
@@ -41,7 +47,7 @@
     </div>
 
     </nav>
-    <div style="height: 90%;" class="container">
+    <div class="container">
         <div class="row ">
             <div class="col-lg-3 col-sm-12 shadow p-3 m-3 text-center">
                 <div class="circulo">
@@ -49,40 +55,50 @@
                 </div>
                 <h2>Tienda Randon</h2>
                 <p>Vendedor</p>
-                <a href="" class="btn btn-custom p-2" >Actualizar</a>
-                <a href="./seguridad.html" class="btn btn-custom">Seguridad</a>
+                <a href="" class="btn btn-custom p-2">Tú Infromación</a>
                 <a href="inventario_vendedor.html" class="btn btn-custom">Inventario</a>
+                <a href="inventario_vendedor.html" class="btn btn-custom">Agregar Producto</a>
+                <a href="pendiente.html" class="btn btn-custom">Pedidos</a>
+                <br>
+                <br>
+                <br>
+                <a href="inventario_vendedor.html" class="btn btn-custom">Cerrar Sesion</a>
             </div>
 
             <div class="col-lg-8 col-sm-12 m-3 p-3 border shadow">
                 <h1 class="text-center">Agregar</h1>
                 <br>
                 <div class="row">
-                    <div class="col-lg-5 col-sm-12 ">
+                    <div class="col-lg-6 col-sm-12 ">
                         <label class="form-label m-2 r-2 font-weight-bold Negrita">Nombre </label>
-                        <input type="text" class="entrada m-1 shadow" id="talla" max="12" min="1"
-                            placeholder="Nombre tienda">
+                        <input type="text" class="entrada m-1 shadow" id="talla" max="12" min="1" placeholder="Nombre">
 
                         <label class="form-label m-2 r-2 font-weight-bold Negrita">Talla</label>
-                        <input type="number" class="entrada m-1 shadow" id="talla" placeholder="talla" value="" max="999" min="0">
+                        <input type="number" class="entrada m-1 shadow" id="talla" placeholder="Talla" value=""
+                            max="999" min="0">
 
                         <label class="form-label m-2 r-2 font-weight-bold Negrita">Cantidad</label>
-                        <input type="number" class="entrada m-1 shadow" id="cantidad" placeholder="cantidad" value="" max="999" min="0">
+                        <input type="number" class="entrada m-1 shadow" id="cantidad" placeholder="Cantidad" value=""
+                            max="999" min="0">
 
                         <label class="form-label m-2 r-2 font-weight-bold Negrita">Categoría</label>
-                        <input type="text" class="entrada m-1 shadow" id="categoria" placeholder="categoria">
+                        <input type="text" class="entrada m-1 shadow" id="categoria" placeholder="Categoria">
+
+
 
 
                     </div>
-                    <div class="col-lg-5 col-sm-12 ">
+                    <div class="col-lg-6 col-sm-12 ">
                         <label class="form-label m-2 r-2 font-weight-bold Negrita">Color</label>
-                        <input type="text" class="entrada m-1 shadow" id="categoria" placeholder="color">
+                        <input type="text" class="entrada m-1 shadow" id="categoria" placeholder="Color">
 
                         <label class="form-label m-2 r-2  font-weight-bold Negrita">Ofertas</label>
-                        <input type="number" class="entrada m-1 shadow" id="ofertas" placeholder="ofertas" value="" max="999" min="0">
+                        <input type="number" class="entrada m-1 shadow" id="ofertas" placeholder="Ofertas" value=""
+                            max="999" min="0">
 
                         <label class="form-label m-2 r-2 font-weight-bold Negrita">Precio</label>
-                        <input type="number" class="entrada m-1 shadow" id="precio" placeholder="precio" value="" max="999" min="0">
+                        <input type="number" class="entrada m-1 shadow" id="precio" placeholder="Precio" value=""
+                            max="999" min="0">
 
                         <label class="form-label m-2 r-2 font-weight-bold Negrita">Subir imagen</label>
                         <form action="/tu_ruta_de_procesamiento" method="post" enctype="multipart/form-data">
@@ -101,9 +117,10 @@
             <div class="container p-4">
                 <div class="row my-6">
                     <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <div class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto"
+                        <div class="rounded-circle  shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto"
                             style="width: 150px; height: 150px;">
-                            <img src="../img/Logo.png" height="70" alt="" loading="lazy" />
+                            <img src="../img/Imagen de WhatsApp 2023-11-30 a las 21.17.15_cbcc47bc.png" height="70"
+                                alt="" loading="lazy" />
                         </div>
                         <ul class="list-unstyled d-flex flex-row justify-content-center">
                             <li>
@@ -133,7 +150,8 @@
                                 <a href="pqr.html" class="text-white"><i class="fas fa-paw pe-3"></i>P.Q.R.S</a>
                             </li>
                             <li class="mb-1">
-                                <a href="ter_y_con.html" class="text-white"><i class="fas fa-paw pe-3"></i>Terminos y condiciones
+                                <a href="ter_y_con.html" class="text-white"><i class="fas fa-paw pe-3"></i>Terminos y
+                                    condiciones
                                 </a>
                             </li>
                             <li class="mb-1">
