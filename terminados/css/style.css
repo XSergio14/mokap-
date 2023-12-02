@@ -45,7 +45,7 @@ textarea {
     /* Para evitar que los bordes redondeados se vean afectados por el sombreado */
 }
 
-.pendientes,
+.Pendientes,
 .Despachados {
     background-color: #EFEBF5;
     border-radius: 20px;
@@ -75,7 +75,7 @@ textarea {
     /* Hace que el div sea redondo */
     overflow: hidden;
     /* Oculta cualquier contenido que se desborde del div redondo */
-    margin-left: 25%;
+    margin-left: 35%;
     border: solid;
     border-color: rgb(237, 235, 235);
 }
@@ -83,7 +83,7 @@ textarea {
 .circulo img {
     width: 100%;
     /* Para que la imagen ocupe todo el espacio disponible */
-    height: auto;
+    height: center;
     /* Para mantener la proporción de la imagen */
     display: block;
     /* Para eliminar los espacios adicionales alrededor de la imagen */
@@ -137,4 +137,9 @@ textarea {
     background-color: #68548C;
     border-radius: 10px;
     border: transparent;
+}
+
+/* nanvarefe */
+a {
+    text-decoration: none;
 }
