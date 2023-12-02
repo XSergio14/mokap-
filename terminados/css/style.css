@@ -91,7 +91,7 @@ textarea {
 
 .btn-custom {
     background-color: #925faa;
-    color: white;
+    color: rgb(255, 255, 255);
     display: inline-block;
     height: 40px;
     width: 80%;
@@ -132,7 +132,7 @@ textarea {
 
 
 /* cambio de contraseña */
-.primary{
+.primary {
     margin-right: 5px;
     background-color: #68548C;
     border-radius: 10px;

@@ -7,47 +7,97 @@
     <title>Agregar producto</title>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-    crossorigin="anonymous"></script>
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-    crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
-<link rel="stylesheet" href="../css/style.css">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
-<script src="https://kit.fontawesome.com/5fd6fbf5d8.js" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5fd6fbf5d8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5fd6fbf5d8.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-3 shadow  text-center">
+    <nav class="navbar navbar-expand-lg" style="background-color: #1b1818">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../img/Imagen de WhatsApp 2023-11-30 a las 21.17.15_cbcc47bc.png" width="90" height="90"
+                    alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle  text-white" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Categorias
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle  text-white" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Locales
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-flex justify-content-between">
+                <a class="navbar-brand" href="home.html">
+                    <img src="../img/user_2102633 (1).png " alt="Logo">
+                    
+                </a>
+            </div>
+            <h5 class="text-white">Tienda Random</h5>
+        </div>
+    </nav>
+
+    <div style="height: 90%;" class="container-fluid">
+        <div class="row ">
+            <div class="col-lg-3 shadow p-3 m-3 text-center">
                 <div class="circulo">
                     <img src="../img/7431863.jpg" alt="imagen">
                 </div>
                 <h2>Tienda Randon</h2>
                 <p>Vendedor</p>
-                <a href="" class="btn btn-custom p-2">Tú Información</a>
+                <a href="" class="btn btn-custom p-2">Tú Infromación</a>
                 <a href="inventario_vendedor.html" class="btn btn-custom">Inventario</a>
                 <a href="inventario_vendedor.html" class="btn btn-custom">Agregar Producto</a>
                 <a href="pendiente.html" class="btn btn-custom">Pedidos</a>
                 <br>
                 <br>
                 <br>
-                <a href="inventario_vendedor.html" class="btn btn-custom">Cerrar Sesión</a>
+                <a href="inventario_vendedor.html" class="btn btn-custom">Cerrar Sesion</a>
             </div>
-<br>
-            <div class="col-lg-9">
-                <h1 class="text-center">Agregar</h1>
 
+
+
+            <div class="col-8 m-3 p-3 border shadow ">
+                <h1 class="text-center">Agregar</h1>
                 <div class="row">
                     <div class="col-lg-5">
                         <label class="form-label m-2 r-2 font-weight-bold Negrita">Nombre </label>
@@ -87,86 +137,88 @@
                 </div>
             </div>
         </div>
-    </div>
 
-    <br>
-    <footer class="text-center text-lg-start text-white" style="background-color: #1b1818">
-        <div class="container p-4 pb-0">
-            <section class="">
-                <div class="row">
-                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                        <div class="rounded-circle  shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto"
-                            style="width: 150px; height: 150px;">
-                            <img src="data:image/png;base64,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"
-                                height="70" alt="" loading="lazy" />
+        <br>
+        <div class="container-fluid ">
+            <footer class="text-center text-lg-start text-white" style="background-color: #1b1818">
+                <div class="container-fluid p-4 pb-0">
+                    <section class="">
+                        <div class="row">
+                            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                                <div class="rounded-circle  shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto"
+                                    style="width: 150px; height: 150px;">
+                                    <img src="data:image/png;base64,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"
+                                        height="70" alt="" loading="lazy" />
+                                </div>
+                            </div>
+
+                            <hr class="w-100 clearfix d-md-none" />
+
+                            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                                <h5 class="text-uppercase mb-4 font-weight-bold">Servicio al cliente</h5>
+                                <ul class="list-unstyled mb-0">
+                                    <li>
+                                        <a href="#!" class="text-white">Preguntas Frecuentes</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="text-white">P.Q.R.S</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="text-white">Terminos y condiciones</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                            <hr class="w-100 clearfix d-md-none" />
+
+                            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                                <h5 class="text-uppercase mb-4 font-weight-bold">
+                                    Locales
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <li class="mb-1">
+                                        <a href="#!" class="text-white">local-1</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <hr class="w-100 clearfix d-md-none" />
+
+                            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                                <h6 class="text-uppercase mb-4 font-weight-bold">Contactos</h6>
+                                <p><i class="fas fa-envelope mr-3"></i> Shoes_company@gmail.com</p>
+                                <p><i class="fas fa-phone mr-3"></i> +57 321 432 2333 </p>
+                                <p><i class="fas fa-phone mr-3"></i> +57 321 432 2333 </p>
+                            </div>
                         </div>
-                    </div>
+                    </section>
 
-                    <hr class="w-100 clearfix d-md-none" />
+                    <hr class="my-3">
 
-                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                        <h5 class="text-uppercase mb-4 font-weight-bold">Servicio al cliente</h5>
-                        <ul class="list-unstyled mb-0">
-                            <li>
-                                <a href="#!" class="text-white">Preguntas Frecuentes</a>
-                            </li>
-                            <li>
-                                <a href="#!" class="text-white">P.Q.R.S</a>
-                            </li>
-                            <li>
-                                <a href="#!" class="text-white">Terminos y condiciones</a>
-                            </li>
+                    <section class="p-3 pt-0">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-md-7 col-lg-8 text-center text-md-start">
+                                <div class="p-3">
+                                    © 2023 NombreGrupo: correoGrupo
+                                </div>
+                            </div>
 
-                        </ul>
-                    </div>
+                            <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+                                <!-- Facebook -->
+                                <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                                        class="fab fa-facebook-f"></i></a>
 
-                    <hr class="w-100 clearfix d-md-none" />
-
-                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-                        <h5 class="text-uppercase mb-4 font-weight-bold">
-                            Locales
-                        </h5>
-                        <ul class="list-unstyled">
-                            <li class="mb-1">
-                                <a href="#!" class="text-white">local-1</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <hr class="w-100 clearfix d-md-none" />
-
-                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-4 font-weight-bold">Contactos</h6>
-                        <p><i class="fas fa-envelope mr-3"></i> Shoes_company@gmail.com</p>
-                        <p><i class="fas fa-phone mr-3"></i> +57 321 432 2333 </p>
-                        <p><i class="fas fa-phone mr-3"></i> +57 321 432 2333 </p>
-                    </div>
-                </div>
-            </section>
-
-            <hr class="my-3">
-
-            <section class="p-3 pt-0">
-                <div class="row d-flex align-items-center">
-                    <div class="col-md-7 col-lg-8 text-center text-md-start">
-                        <div class="p-3">
-                            © 2023 NombreGrupo: correoGrupo
+                                <!-- Instagram -->
+                                <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                                        class="fab fa-instagram"></i></a>
+                            </div>
                         </div>
-                    </div>
-
-                    <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
-                        <!-- Facebook -->
-                        <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
-                                class="fab fa-facebook-f"></i></a>
-
-                        <!-- Instagram -->
-                        <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
-                                class="fab fa-instagram"></i></a>
-                    </div>
+                    </section>
                 </div>
-            </section>
+            </footer>
         </div>
-    </footer>
+
 </body>
 
 </html>

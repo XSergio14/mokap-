@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,77 +6,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>despachado</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/5fd6fbf5d8.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="../css/style.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/5fd6fbf5d8.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg" style="background-color: #1b1818">
         <div class="container-fluid">
-            <a class="navbar-brand" href="home.html">
+            <a class="navbar-brand" href="#">
                 <img src="../img/Imagen de WhatsApp 2023-11-30 a las 21.17.15_cbcc47bc.png" width="90" height="90"
                     alt="Logo">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
+
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="home.html">Inicio</a>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Inicio</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="home.html">Productos</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle  text-white" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Categorias
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle  text-white" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Locales
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
                     </li>
                 </ul>
             </div>
             <div class="d-flex justify-content-between">
                 <a class="navbar-brand" href="home.html">
-                    <img src="../img/user_2102633 (1).png " alt="Logo"> Tienda random
+                    <img src="../img/user_2102633 (1).png " alt="Logo">
+                    
                 </a>
             </div>
+            <h5 class="text-white">Tienda Random</h5>
         </div>
     </nav>
 
     <div class="container p-3 ">
         <div class="row">
-            <h1>PEDIDOS</h1>
+            <h1>Pedidos Despachados</h1>
         </div>
         <div class="row">
-            <div class=" col-lg-9 btn btn">
+            <div class=" col-lg-7 btn btn">
                 <a href="pendiente.html"><button type="button" class="Pendientes">Pendientes</button></a>
                 <a href="despachado.html"> <button type="button" class="Despachados">Despachados</button></a>
             </div>
         </div>
     </div>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-3 shadow  text-center">
+    <div style="height: 90%;" class="container-fluid">
+        <div class="row ">
+            <div class="col-lg-3 shadow p-3 m-3 text-center">
                 <div class="circulo">
                     <img src="../img/7431863.jpg" alt="imagen">
                 </div>
                 <h2>Tienda Randon</h2>
                 <p>Vendedor</p>
-                <a href="" class="btn btn-custom p-2">Tú Información</a>
+                <a href="" class="btn btn-custom p-2">Tú Infromación</a>
                 <a href="inventario_vendedor.html" class="btn btn-custom">Inventario</a>
                 <a href="inventario_vendedor.html" class="btn btn-custom">Agregar Producto</a>
                 <a href="pendiente.html" class="btn btn-custom">Pedidos</a>
                 <br>
                 <br>
                 <br>
-                <a href="inventario_vendedor.html" class="btn btn-custom">Cerrar Sesión</a>
+                <a href="inventario_vendedor.html" class="btn btn-custom">Cerrar Sesion</a>
             </div>
 
-            <div class="col-lg-8 m-3 p-3 border shadow">
-                <div class="table-responsive">
-                    <table class="table table-bordered">
+
+            <div class="col-8 m-3 p-3 border shadow">
+                <br>
+                <div class="table table-responsive">
+                    <table class="table table-bordered  ">
                         <thead>
                             <tr>
                                 <th>Imagen</th>
@@ -91,9 +125,11 @@
                         <tbody>
                             <tr>
                                 <td>
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUlAzrvSRW9TgKFK4bwOArA04G4G41mSFPkw&usqp=CAU"
-                                        class="rounded" alt="Descripción de la imagen"
-                                        style="width: 60p; height: 60px;">
+                                    <div class="text-center">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUlAzrvSRW9TgKFK4bwOArA04G4G41mSFPkw&usqp=CAU"
+                                            class="rounded" alt="Descripción de la imagen"
+                                            style="width: 60p; height: 60px;">
+                                            </div>
                                 </td>
                                 <td>Producto</td>
                                 <td>50</td>
@@ -103,10 +139,13 @@
                                 <td>Despachado</td>
                                 <td>
                                     <!-- Botón para abrir el modal -->
-                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                        data-bs-target="#verPendiente">
-                                        <img class="logo" src="../img/ojo.png" alt="">
-                                    </button>
+                                    <div class="text-center">
+                                        <button type="button" class="btn btn-secondary " data-bs-toggle="modal"
+                                            data-bs-target="#verPendiente">
+                                            <img class="logo" src="../img/ojo.png" alt="">
+                                        </button>
+                                    </div>
+
 
                                     <!-- Modal -->
                                     <div class="modal fade" id="verPendiente" tabindex="-1"
@@ -120,10 +159,10 @@
                                                         aria-label="Close"></button>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <!-- Contenido del modal -->
-                                                    <p>Él usuario que compro los productos es: Pepe</p>
-                                                    <p>Número de contacto de pepe: .</p>
-                                                    <p>Él pedido fue enviado en la siguiente fecha: 20/44/5488</p>
+                                                   
+                                                    <p>El usuario que realizo el pedido fue: Pepe</p>
+                                                    <p>Numero de contacto de pepe: .</p>
+                                                    <p>El pedido fue realizado en la siguiente fecha.</p>
                                                 </div>
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-secondary"
@@ -135,23 +174,32 @@
                                     </div>
                                 </td>
                             </tr>
+                          
+                        </thead>
+                        <tbody>
                             <tr>
                                 <td>
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUlAzrvSRW9TgKFK4bwOArA04G4G41mSFPkw&usqp=CAU"
-                                        class="rounded" alt="Descripción de la imagen"
-                                        style="width: 60p; height: 60px;">
+                                    <div class="text-center">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUlAzrvSRW9TgKFK4bwOArA04G4G41mSFPkw&usqp=CAU"
+                                            class="rounded" alt="Descripción de la imagen"
+                                            style="width: 60p; height: 60px;">
+                                            </div>
                                 </td>
-                                <td>Producto B</td>
-                                <td>20</td>
-                                <td>$25.00</td>
-                                <td>Rojo</td>
-                                <td>15</td>
+                                <td>Producto</td>
+                                <td>50</td>
+                                <td>$20.00</td>
+                                <td>Azul</td>
+                                <td>10</td>
                                 <td>Despachado</td>
                                 <td>
-                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                        data-bs-target="#verPendiente">
-                                        <img class="logo" src="../img/ojo.png" alt="">
-                                    </button>
+                                    <!-- Botón para abrir el modal -->
+                                    <div class="text-center">
+                                        <button type="button" class="btn btn-secondary " data-bs-toggle="modal"
+                                            data-bs-target="#verPendiente">
+                                            <img class="logo" src="../img/ojo.png" alt="">
+                                        </button>
+                                    </div>
+
 
                                     <!-- Modal -->
                                     <div class="modal fade" id="verPendiente" tabindex="-1"
@@ -165,16 +213,17 @@
                                                         aria-label="Close"></button>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <!-- Contenido del modal -->
-                                                    <p>Él usuario que compro los productos es: Pepe</p>
-                                                    <p>Número de contacto de pepe: .</p>
-                                                    <p>Él pedido fue enviado en la siguiente fecha: 20/44/5488</p>
+                                                   
+                                                    <p>El usuario que realizo el pedido fue: Pepe</p>
+                                                    <p>Numero de contacto de pepe: .</p>
+                                                    <p>El pedido fue realizado en la siguiente fecha.</p>
                                                 </div>
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-secondary"
                                                         data-bs-dismiss="modal">Cerrar</button>
                                                 </div>
                                             </div>
+                                              
                                         </div>
                                     </div>
                                 </td>
@@ -183,6 +232,7 @@
                     </table>
                 </div>
             </div>
+           
         </div>
     </div>
 
