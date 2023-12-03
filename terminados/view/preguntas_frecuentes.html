@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preguntas Frecuentes - Mi Aplicativo Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .faq-box {
+            border: 1px solid #ddd;
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+
+        .question {
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .answer {
+            display: none;
+            padding-top: 10px;
+        }
+
+        .faq-box:hover {
+            background-color: #e0e0e0;
+        }
+
+        .read-more-btn {
+            cursor: pointer;
+            color: #007bff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Preguntas Frecuentes</h1>
+    </header>
+
+    <main>
+        <div class="faq-box">
+            <div class="question">¿Cómo cambio mi contraseña?</div>
+            <div class="answer">
+                <p>Para cambiar tu contraseña, sigue estos pasos:</p>
+                <ol>
+                    <li>Ingresa a tu cuenta.</li>
+                    <li>Dirígete a la sección de configuración de la cuenta.</li>
+                    <li>Selecciona la opción "Cambiar contraseña".</li>
+                </ol>
+                <p>Completa el proceso y tu contraseña será actualizada.</p>
+            </div>
+            <div class="read-more-btn" onclick="toggleAnswer(this)">Ver más</div>
+        </div>
+
+        <div class="faq-box">
+            <div class="question">¿Cómo personalizo mi perfil?</div>
+            <div class="answer">
+                <p>Para personalizar tu perfil, sigue estos pasos:</p>
+                <ol>
+                    <li>Ve a la página de perfil.</li>
+                    <li>Selecciona la opción "Editar perfil".</li>
+                    <li>Añade una foto y actualiza tu información personal.</li>
+                </ol>
+                <p>Tus cambios se guardarán automáticamente.</p>
+            </div>
+            <div class="read-more-btn" onclick="toggleAnswer(this)">Ver más</div>
+        </div>
+
+        <div class="faq-box">
+            <div class="question">¿Cómo recupero mi cuenta si olvido mi nombre de usuario?</div>
+            <div class="answer">
+                <p>Si olvidas tu nombre de usuario, sigue estos pasos:</p>
+                <ol>
+                    <li>En la página de inicio de sesión, haz clic en "¿Olvidaste tu nombre de usuario?".</li>
+                    <li>Ingresa la dirección de correo electrónico asociada a tu cuenta.</li>
+                    <li>Sigue las instrucciones en el correo electrónico que recibirás para recuperar tu nombre de
+                        usuario.</li>
+                </ol>
+            </div>
+            <div class="read-more-btn" onclick="toggleAnswer(this)">Ver más</div>
+        </div>
+
+        <div class="faq-box">
+            <div class="question">¿Qué hacer si experimento problemas de rendimiento en la aplicación?</div>
+            <div class="answer">
+                <p>Si experimentas problemas de rendimiento, sigue estos pasos:</p>
+                <ol>
+                    <li>Verifica que estás utilizando la última versión del navegador.</li>
+                    <li>Actualiza tu navegador si es necesario.</li>
+                    <li>Si el problema persiste, contacta al soporte técnico para recibir asistencia adicional.</li>
+                </ol>
+            </div>
+            <div class="read-more-btn" onclick="toggleAnswer(this)">Ver más</div>
+        </div>
+
+        <!-- Preguntas adicionales... -->
+
+    </main>
+
+    <script>
+        function toggleAnswer(btn) {
+            var answer = btn.previousElementSibling;
+            answer.style.display = answer.style.display === "none" ? "block" : "none";
+            btn.textContent = btn.textContent === "Ver más" ? "Ver menos" : "Ver más";
+        }
+    </script>
+
+</body>
+
+</html>

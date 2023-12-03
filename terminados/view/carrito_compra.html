@@ -9,7 +9,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Carrito Compras</title>
-    
     <script src="https://kit.fontawesome.com/5fd6fbf5d8.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
@@ -72,10 +71,10 @@
                     </li>
                 </ul>
                 <span class="navbar-text text-white">
-                    <a class="navbar-brand" href="home.html">
+                    <a class="navbar-brand" href="carrito_compra.html">
                         <img width="40" height="40" src="../img/carrito-de-compras (1).png " alt="Logo">
                     </a>
-                    <a class="navbar-brand" href="home.html">
+                    <a class="navbar-brand" href="perfil_cliente.html">
                         <img width="40" height="40" src="../img/user_2102633 (1).png " alt="Logo">
                     </a>
                 </span>
@@ -107,7 +106,7 @@
                                         style="width: 60p; height: 60px;">
                                 </td>
                                 <td>
-                                    <div class="info-container">
+                                    <div class="container">
                                         <div class="info-box title">
                                             <h5>zapato</h5>
                                         </div>
@@ -115,16 +114,19 @@
                                         <div class="info-box">Talla:40</div>
                                     </div>
                                 </td>
-                                <td>
-                                    <div class="input-group mb-2 mt-3">
-                                        <button class="btn btn-outline-secondary" type="button "
-                                            onclick="decrement()"><i class="fa-solid fa-minus"></i></button>
-                                        <input type="number" id="myNumber" class="form-control" value="0" min="0"
-                                            aria-label="">
-                                        <button class="btn btn-outline-secondary" type="button" onclick="increment()"><i
-                                                class="fa-solid fa-plus"></i></button>
+                                <td class="align-middle">
+                                    <div class="input-group">
+                                        <button class="btn btn-outline-secondary" type="button" onclick="decrement()">
+                                            <i class="fa-solid fa-minus"></i>
+                                        </button>
+                                        <input type="number" id="myNumber" class="form-control-ms " value="0" min="0" aria-label="">
+                                        <button class="btn btn-outline-secondary" type="button" onclick="increment()">
+                                            <i class="fa-solid fa-plus"></i>
+                                        </button>
                                     </div>
                                 </td>
+                                
+                                
                                 <td class="p-4" id="abs-center">$100.000</td>
                                 <td><a href="" class="btn btn-dark m-4">X</a></td>
                             </tr>
@@ -195,13 +197,13 @@
                             <h5 class="text-uppercase mb-4 font-weight-bold">Servicio al cliente</h5>
                             <ul class="list-unstyled mb-0">
                                 <li>
-                                    <a href="#!" class="text-white">Preguntas Frecuentes</a>
+                                    <a href="#!" class="text-white" style="text-decoration: none;">Preguntas Frecuentes</a>
                                 </li>
                                 <li>
-                                    <a href="pqr.html" class="text-white">P.Q.R.S</a>
+                                    <a href="pqr.html" class="text-white" style="text-decoration: none;">P.Q.R.S</a>
                                 </li>
                                 <li>
-                                    <a href="ter_y_con.html" class="text-white">Terminos y condiciones</a>
+                                    <a href="ter_y_con.html" class="text-white" style="text-decoration: none;">Terminos y condiciones</a>
                                 </li>
 
                             </ul>
@@ -215,7 +217,7 @@
                             </h5>
                             <ul class="list-unstyled">
                                 <li class="mb-1">
-                                    <a href="#!" class="text-white">local-1</a>
+                                    <a href="#!" class="text-white" style="text-decoration: none;">local-1</a>
                                 </li>
                             </ul>
                         </div>
