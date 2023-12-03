@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+
+    .boton-difuminado {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #3498db; /* Color de fondo del botón */
+      border-radius: 5px;
+      position: relative;
+      overflow: hidden;
+      cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    }
+
+    .boton-difuminado:hover span {
+      color: #333; /* Cambio de color del texto al pasar el ratón sobre el botón */
+    }
+  </style>
+  <title>Botón</title>
+</head>
+<body>
+  <div class="boton-difuminado" onclick="mostrarMensaje()">
+    <span>MAriko</span>
+  </div>
+
+  <script>
+    function mostrarMensaje() {
+      alert('¡Hola! Has hecho clic en el botón.');
+    }
+  </script>
+</body>
+</html>

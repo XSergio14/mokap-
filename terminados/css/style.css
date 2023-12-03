@@ -151,13 +151,36 @@ a {
 
 /* tarjetas de zapatos */
 
-.imagenSuperiorZapatos {
-    box-shadow: 1px 1px 1px;
+.tarjetaZapatos {
+    border: 1px solid #ddd;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    margin-right: auto;
 }
 
-.informacionInferiorZapatos {
-    box-shadow:  1px 1px;
+.precioEsquina {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.8);
 
+}
+
+
+.imagenSuperiorZapatos {
+    width: 250px;
+    height: auto;
+
+}
+
+.botonMas {
+    width: 40px;
+    height: auto;
+}
+
+.imagenSuperiorZapatos {
+    box-shadow: 1px 1px 1px;
 }
 
 .botonMas {

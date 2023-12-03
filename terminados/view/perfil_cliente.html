@@ -94,26 +94,29 @@
                 <br>
                 <div class="row">
                     <div class="col-lg-5 col-sm-12">
-                        <label class="form-label m-2 r-2 font-weight-bold Negrita">Nombre </label>
+                        <label class="form-label m-2 r-2 fw-bolder">Nombre </label>
                         <input type="text" class="entrada m-1 shadow" id="Nombre" max="12" min="1" placeholder="Nombre">
 
-                        <label class="form-label m-2 r-2 font-weight-bold Negrita">Apellido</label>
+                        <label class="form-label m-2 r-2 fw-bolder">Apellido</label>
                         <input type="number" class="entrada m-1 shadow" id="Apellido" placeholder="Apellido" value=""
                             max="999" min="0">
                     </div>
                     <div class="col-lg-5 col-sm-12">
-                        <label class="form-label m-2 r-2 font-weight-bold Negrita">Correo</label>
+                        <label class="form-label m-2 r-2 fw-bolder">Correo</label>
                         <input type="text" class="entrada m-1 shadow" id="Correo" placeholder="Correo">
 
-                        <label class="form-label m-2 r-2  font-weight-bold Negrita">Teléfono</label>
+                        <label class="form-label m-2 r-2  fw-bolder">Teléfono</label>
                         <input type="number" class="entrada m-1 shadow" id="Telefono" placeholder="Teléfono" value=""
                             max="999" min="0">
 
-                        <label class="form-label m-2 r-2 font-weight-bold Negrita">Subir imagen</label>
+                        <label class="form-label m-2 r-2 fw-bolder">Subir imagen</label>
                         <form action="/tu_ruta_de_procesamiento" method="post" enctype="multipart/form-data">
-                            <input type="file" name="archivo" class="from__file" accept=".png" required>
-                            <input type="submit" class="from__submit">
-                        </form>
+                            <input type="file" name="archivo" class="form-control" accept=".png" required>
+                            <div class="d-flex justify-content-center ">
+                                <input type="submit" style="border-radius: 16px; "
+                                    class="btn-option mt-1 text-white btn btn-custom">
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
