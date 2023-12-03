@@ -21,35 +21,22 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg" style="background-color: #1b1818">
+    <nav class="navbar navbar-expand-lg " style="background-color: #20242C">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="../img/Imagen de WhatsApp 2023-11-30 a las 21.17.15_cbcc47bc.png" width="90" height="90"
+                <img src="../img/Imagen de WhatsApp 2023-11-30 a las 21.17.15_cbcc47bc.png" width="80" height="80"
                     alt="Logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-
+            <button class="navbar-toggler" style="background-color: #925faa;" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span style="color: 925faa;" class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link active text-white" aria-current="page" href="inicio_local.html">Inicio</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle  text-white" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Categorias
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle  text-white" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Locales
                         </a>
@@ -59,12 +46,26 @@
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                     </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Talla
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
                 </ul>
-            </div>
-            <div class="d-flex justify-content-between">
-                <a class="navbar-brand" href="home.html">
-                    <img src="../img/user_2102633 (1).png " alt="Logo">
-                </a>
+                <span class="navbar-text text-white">
+                    <a class="navbar-brand" href="cliente_carrito_compra.html">
+                        <img width="40" height="40" src="../img/carrito-de-compras (1).png " alt="Logo">
+                    </a>
+                    <a class="navbar-brand" href="cliente_perfil_cliente.html">
+                        <img width="40" height="40" src="../img/user_2102633 (1).png " alt="Logo">
+                    </a>
+                </span>
             </div>
         </div>
     </nav>
@@ -73,11 +74,11 @@
         <div class="row ">
             <div class="col-lg-3 shadow p-3 m-3 text-center">
                 <div class="circulo">
-                    <img src="../img/7431863.jpg" alt="imagen">
+                    <img src="https://i.pinimg.com/originals/fc/e2/74/fce2740d6f3fe82e8d934d1d67169a4b.jpg" alt="imagen">
                 </div>
                 <h2>Ramon Salazar</h2>
                 <a href="" class="btn btn-custom p-2">Tú Infromación</a>
-                <a href="inventario_vendedor.html" class="btn btn-custom">Cambiar Contraseña</a>
+                <a href="cambio_contraseña.html" class="btn btn-custom">Cambiar Contraseña</a>
                 <br>
                 <br>
                 <br>
@@ -103,14 +104,12 @@
                         <input type="number" class="entrada m-1 shadow" id="Telefono" placeholder="Teléfono" value=""
                             max="999" min="0">
 
-                        <label class="form-label m-2 r-2 fw-bolder">Subir imagen</label>
-                        <form action="/tu_ruta_de_procesamiento" method="post" enctype="multipart/form-data">
-                            <input type="file" name="archivo" class="form-control" accept=".png" required>
-                            <div class="d-flex justify-content-center ">
-                                <input type="submit" style="border-radius: 16px; "
-                                    class="btn-option mt-1 text-white btn btn-custom">
-                            </div>
-                        </form>
+                            <label class="form-label m-2 r-2 fw-bolder">Subir imagen</label>
+                            <input type="file" class="form-control" id="inputGroupFile02" accept=".png" required>
+                        </div>
+                        <div class="container d-flex justify-content-center align-items-center p-5 col-6">
+                            <button class="btn btn-custom">Guardar</button>
+                        </div>
                     </div>
                 </div>
             </div>
